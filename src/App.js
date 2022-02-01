@@ -1,15 +1,15 @@
 import "./App.css";
+import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
-      <div className="Container">
-        <button className="btn btn-primary">Hello</button>
-        <h1>Weather app</h1>
+      <div className="container">
+        <Weather />
         <footer>
-          Coded by Joveth Daublas and is {""}
+          Coded by Joveth Daublas - {""}
           <a href="https://github.com/jdaublas/react-weather-app">
-            Open-sourced:github
+            Open-sourced: github
           </a>
         </footer>
       </div>
