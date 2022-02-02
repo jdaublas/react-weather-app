@@ -6,7 +6,6 @@ import "./Weather.css";
 export default function Weather(props) {
   const [weather, setWeather] = useState({ ready: false });
   function handleResponse(response) {
-    console.log(response.data);
     setWeather({
       ready: true,
       date: new Date(response.data.dt * 1000),
