@@ -4,10 +4,13 @@ import "./Weather.css";
 export default function Weather() {
   return (
     <div className="Weather">
-      <form>
-        <input type="Search" placeholder="Type a city" />
-        <input type="Submit" value="Search" className="btn btn-primary" />
-      </form>
+      <div className="Search">
+        <form>
+          <input type="Search" placeholder="Search for a city" />
+          <input type="Submit" value="Search" className="btn btn-primary" />
+        </form>
+      </div>
+
       <div className="row">
         <div className="col-6">
           <img
