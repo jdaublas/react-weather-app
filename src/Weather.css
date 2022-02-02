@@ -2,7 +2,6 @@
   border: 1px solid #dadce0;
   margin-top: 30px;
   border-radius: 4px;
-  max-width: 600px;
 }
 
 .Search form {
@@ -26,14 +25,14 @@
   font-size: 16px;
   line-height: 24px;
   margin-top: 6px;
-  padding-left: 6px;
+  padding-left: 0px;
   vertical-align: top;
 }
 
 .Description {
   display: inline-block;
   color: #70757a;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 16px;
   padding-left: 0px;
   padding-top: 6px;
@@ -44,7 +43,7 @@
   font-size: 30px;
   line-height: 26px;
   text-align: right;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 .City ul {

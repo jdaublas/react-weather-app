@@ -8,8 +8,12 @@ function App() {
         <Weather />
         <footer>
           Coded by Joveth Daublas - {""}
-          <a href="https://github.com/jdaublas/react-weather-app">
-            Open-sourced: github
+          <a
+            href="https://github.com/jdaublas/react-weather-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-sourced: GitHub
           </a>
         </footer>
       </div>
