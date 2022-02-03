@@ -13,7 +13,6 @@ export default function FormattedDate(props) {
   let day = days[props.date.getDay()];
   let hours = props.date.getHours();
   let ampm = hours >= 12 ? "pm" : "am";
-
   let strTime =
     day +
     " " +
