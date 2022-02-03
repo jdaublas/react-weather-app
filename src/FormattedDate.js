@@ -13,9 +13,15 @@ export default function FormattedDate(props) {
   let day = days[props.date.getDay()];
   let hours = props.date.getHours();
   let ampm = hours >= 12 ? "pm" : "am";
-  hours = ((hours + 11) % 12) + 1;
-  let minutes = props.date.getMinutes();
-  let strTime = day + " " + hours + ":" + minutes + " " + ampm;
+
+  let strTime =
+    day +
+    " " +
+    props.date.getHours() +
+    ":" +
+    props.date.getMinutes() +
+    " " +
+    ampm;
 
   return <div>{strTime}</div>;
 }
