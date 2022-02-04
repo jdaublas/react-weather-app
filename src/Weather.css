@@ -15,7 +15,7 @@
   padding-left: 6px;
   vertical-align: top;
   color: #202124;
-  font-size: 40px;
+  font-size: 36px;
   line-height: 60px;
 }
 
@@ -30,11 +30,8 @@
 }
 
 .Description {
-  display: inline-block;
   color: #70757a;
   font-size: 11px;
-  line-height: 16px;
-  padding-top: 6px;
 }
 
 .City h1 {
